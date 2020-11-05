@@ -1,0 +1,128 @@
+.menu {
+  display: flex;
+  list-style: none;
+  width: 800px;
+  margin: 0 auto;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.item {
+  margin: 0 0 0 60px;
+  font-size: 16px;
+}
+
+ul {
+  padding: 0;
+}
+
+.blockUser{
+  display:grid;
+  grid-template-columns:1fr 2fr;
+  justify-items: end;
+  
+}
+
+.logoLink{
+  color:#000;
+  font-family: roboto;
+  text-decoration: none;
+  transition:200ms;
+}
+
+.imgUser{
+  border-radius: 50px;
+  margin:0 0 0 -30px;
+}
+
+.usersList{
+  list-style:none;
+}
+
+.imgLeft{
+  padding:0 10px 0 0;
+}
+
+.textName{
+  display: grid;
+  align-items: center;
+ 
+}
+
+.linkRegister{
+  color:#28b2ff;
+  text-decoration: none;
+  transition: 200ms;
+}
+
+.nameOfUser{
+  cursor:default;
+}
+
+.leftBlock{
+  display: grid;
+  align-items: center;
+}
+
+.imgUser{
+  border-radius: 50px ;
+  margin:0 0 0 -40px;
+}
+
+.topBlock{
+  padding:0 0 5px 0;
+}
+
+.menuUser{
+  display: grid;
+  list-style: none;
+  align-items: center;
+  grid-template-columns: 1fr 100fr;
+
+}
+
+.linkAuth{
+  color:#28b2ff;
+  text-decoration: none;
+  transition: 200ms;
+}
+
+.linkAuth:hover{
+  color:#0287cf;
+}
+
+.linkRegister:hover{
+  color:#0287cf;
+
+}
+
+.logoLink:hover{
+  color:rgb(43, 43, 43);
+
+}
+
+.notmain {
+  color: #666666;
+  transition: 500ms;
+}
+
+.notmain:hover {
+  color: #222222;
+}
+
+.regAuth {
+  color: #28b2ff;
+}
+
+.menu li {
+  font-family: Roboto;
+  cursor: pointer;
+}
+
+.push {
+  margin-left: auto;
+}
+
+.logo {
+  font-size: 22px;
+}

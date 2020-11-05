@@ -1,0 +1,94 @@
+.articleBlock {
+  width: 740px;
+  height: auto;
+  background: #fff;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 20px;
+  word-wrap: break-word;
+  padding: 40px 30px 10px 30px;
+}
+
+.userBlock img {
+  border-radius: 50px;
+}
+
+.linkButton{
+  text-decoration: none;
+ 
+} 
+
+
+
+.userBlock {
+  display: flex;
+  height: 70px;
+  margin: 20px 0 0 0;
+}
+
+.centerImg {
+  text-align: center;
+}
+
+.nameOfUser {
+  font-family: roboto;
+  padding: 7px 0 0 10px;
+}
+
+.dataOfArticle {
+  font-family: roboto;
+}
+
+.nameblock {
+  padding: 0 0 120px 0;
+}
+
+.dateOfarticle {
+  color: #878787;
+  font-size: 14px;
+}
+
+.nameOfArticle {
+  font-family: roboto;
+  font-size: 30px;
+  color: #000;
+  cursor: pointer;
+}
+
+.readMore {
+  color: #28b2ff;
+  margin: 0 0 0 10px;
+  cursor: pointer;
+  transition: 200ms;
+}
+
+.readMore:hover{
+  color:#0287cf;
+}
+
+.blockNameOfArticle {
+  margin: -20px 0 0 0;
+}
+
+.tagsOfArticle {
+  padding: 20px 0 0 0;
+  color: #a6a6a6;
+  font-size: 14px;
+  font-family: roboto;
+}
+
+.descOfArticle {
+  padding: 30px 0 20px 0;
+  font-family: roboto;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.imgOfArcile {
+  border-radius: 10px;
+}
+
+.articleBlock img {
+  max-width: 740px;
+  margin: 0 auto;
+}

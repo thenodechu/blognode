@@ -1,0 +1,168 @@
+.dataAboutArticle {
+  width: 800px;
+  height: 40px;
+  margin: 0 auto;
+  border-radius: 10px;
+  border: 1px solid #c7c7c7;
+  padding: 0 15px 0 15px;
+  outline: none;
+  color: #1d1d1d;
+  font-family: roboto;
+  transition: 300ms;
+  background: #f5f5f5;
+}
+
+.dataAboutArticle:hover {
+  background: rgb(241, 241, 241);
+  border: 1px solid #9c9c9c;
+}
+
+.dataAboutArticle::placeholder {
+  color: #c7c7c7;
+  font-family: roboto;
+}
+
+.dataAboutArticle:hover::placeholder {
+  color: #adadad;
+}
+
+.centerEditor {
+  display: grid;
+  justify-items: center;
+  margin: 30px 0 0 0;
+}
+
+.editorField {
+  height: auto;
+  width: 800px;
+  outline: none;
+  color: #000;
+  border: 1px solid #c7c7c7;
+  border-radius: 10px;
+  padding: 15px;
+  font-family: roboto;
+  background: #f5f5f5;
+}
+
+.editorField img {
+  max-width: 800px;
+}
+
+.editorField ol {
+  padding: 0 0 0 30px;
+}
+
+.editorField a {
+  color: #000;
+  font-family: roboto;
+}
+
+.menuEditor {
+  display: inline-flex;
+  list-style: none;
+  font-family: roboto;
+  width: auto;
+  background: #fff;
+  padding: 10px 20px 10px 20px;
+  border-radius: 10px;
+  margin: 20px auto; /* Will not center vertically and won't work in IE6/7. */
+}
+
+.helpblockForCenter {
+  display: grid;
+  justify-items: center;
+}
+
+.fixedBlock {
+  position: fixed;
+
+  margin: -0.3% auto; /* Will not center vertically and won't work in IE6/7. */
+  left: 0;
+  right: 0;
+}
+
+.menuEditor li button {
+  background: #fff;
+  border: 1px solid #fff;
+  font-family: roboto;
+  outline: none;
+  cursor: pointer;
+  transition: 300ms;
+}
+
+.menuEditor li button:hover {
+  color: rgb(73, 73, 73);
+}
+
+.menuEdito {
+  display: grid;
+  justify-items: center;
+}
+
+.menuEditor li {
+  cursor: pointer;
+}
+
+.rightEdit {
+  margin: 0 0 0 65px;
+}
+
+.editorFieldCenter {
+  display: grid;
+  justify-items: center;
+}
+
+.testBlock {
+  width: 800px;
+  font-family: roboto;
+}
+
+.testBlock img {
+  max-width: 800px;
+}
+
+.centerBlockInput {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  justify-items: center;
+}
+
+.saveArticle {
+  color: #fff;
+  border-radius: 10px;
+  padding: 15px 30px 15px 30px;
+  border: 1px solid #87c5ff;
+  font-size: 15px;
+  background: #87c5ff;
+  outline: none;
+  cursor:pointer;
+  transition:100ms;
+}
+
+.resultMessage{
+  width: 830px;
+  border-radius: 10px;
+  height: 50px;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  background: rgb(74, 252, 112);
+  margin:0 auto;
+  margin-top: 20px;
+}
+
+.resultMessage p{
+   color:#fff;
+   font-family: roboto;
+}
+
+.saveArticle:active{
+  background: #5eb1ff;
+}
+
+.buttonHelpBlock {
+  width: 830px;
+  display: grid;
+  justify-items: start;
+  margin: 0 auto;
+}

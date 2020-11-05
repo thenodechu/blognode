@@ -1,0 +1,83 @@
+.articleBlock {
+    width: 740px;
+    height: auto;
+    background: #fff;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 5px;
+    word-wrap: break-word;
+    padding: 40px 30px 10px 30px;
+  }
+  
+
+  
+  .linkButton{
+    text-decoration: none;
+   
+  } 
+ 
+  
+  .centerImg {
+    text-align: center;
+  }
+  
+ 
+  
+  .dataOfArticle {
+    font-family: roboto;
+  }
+  
+  .dateOfarticle {
+    color: #878787;
+    font-size: 14px;
+  }
+
+  .goToEdit{
+    color: #28b2ff;
+    cursor: pointer;
+    transition: 200ms;
+    text-decoration: none;
+    font-family: roboto;
+  
+  }
+
+.linkUser{
+    color:#000;
+    text-decoration: none;
+    font-family: roboto;
+}
+
+  .goToEdit p{
+      padding:10px 0 0 0;
+  }
+  
+  .goToEdit:hover{
+    color:#0287cf;
+  }
+  
+  .blockNameOfArticle {
+    margin: -20px 0 0 0;
+  }
+  
+  .tagsOfArticle {
+    padding: 20px 0 0 0;
+    color: #a6a6a6;
+    font-size: 14px;
+    font-family: roboto;
+  }
+  
+.titleMy{
+   width:800px;
+
+   margin:0 auto;
+   margin-top:30px;
+}
+
+.titleMy p{
+    color:#000;
+    font-family: roboto;
+    font-size:30pt;
+}
+
+
+  

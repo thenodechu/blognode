@@ -1,0 +1,32 @@
+.mainContent {
+  font-family: roboto;
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 10px;
+  word-wrap: break-word;
+}
+
+.helpBlockForTitle{
+  width:800px;
+  margin:0 auto;
+  word-wrap: break-word;
+}
+
+.mainContent img {
+  max-width: 800px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.titleMainArticle {
+  margin: 50px 0 0 0;
+  font-family: roboto;
+  font-size: 35px;
+}
+
+.titleMainTags {
+  margin: 10px 0 0 550px;
+  font-family: roboto;
+  font-size: 16px;
+  color: #a6a6a6;
+}

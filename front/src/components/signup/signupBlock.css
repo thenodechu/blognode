@@ -1,0 +1,99 @@
+.signupBlock {
+  display: grid;
+  justify-items: center;
+  margin-top: 100px;
+}
+
+.auth {
+  font-size: 48px;
+  font-family: roboto;
+}
+
+.havenoaccount {
+  color: #9c9c9c;
+  font-size: 18px;
+  font-family: roboto;
+  padding: 0 0 10px 0;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+.styleInput {
+  width: 400px;
+  height: 40px;
+  background: none;
+  outline: none;
+  padding: 0 0 0 10px;
+  border: 1px solid #c9c9c9;
+  border-radius: 10px;
+  color: #868686;
+}
+
+.styleInput::placeholder {
+  color: #c9c9c9;
+  padding: 0 0 0 5px;
+  font-family: roboto;
+}
+
+.button {
+  color: #fff;
+  border-radius: 10px;
+  padding: 15px 30px 15px 30px;
+  border: 1px solid #87c5ff;
+  font-size: 15px;
+  background: #87c5ff;
+  outline: none;
+  cursor:pointer;
+  transition:100ms;
+}
+
+.authButton{
+  font-family: roboto;
+  color:#349EFF;
+  text-decoration: none;
+  transition:200ms;
+}
+
+
+.authButton:hover{
+  color:#0287cf;
+
+}
+.button:active{
+  background: #5eb1ff;
+}
+
+.error {
+  width: 410px;
+  border-radius: 10px;
+  height: 50px;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  background: rgb(255, 66, 66);
+  margin: 10px 0 0 0;
+}
+
+.error p {
+  font-family: roboto;
+  color: #fff;
+}
+
+.success {
+  width: 410px;
+  border-radius: 10px;
+  height: 50px;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  background: rgb(74, 252, 112);
+  margin: 10px 0 0 0;
+}
+
+.success p {
+  font-family: roboto;
+  color: #fff;
+}

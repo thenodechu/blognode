@@ -1,0 +1,25 @@
+ul {
+  padding: 0;
+}
+
+.bottomMenu {
+  display: flex;
+  list-style: none;
+  margin: 0 auto;
+}
+
+.right {
+  margin: 0 0 0 52px;
+}
+
+.elem {
+  font-family: roboto;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.centerMenu {
+  display: grid;
+  justify-items: center;
+  margin: 45px 0 0 0;
+}
